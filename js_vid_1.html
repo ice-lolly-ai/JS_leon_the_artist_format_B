@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Video Shapes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="video-container"></div>
+    <div id="controls">
+        <label for="videoSize">Video Size: </label>
+        <input type="range" id="videoSize" min="50" max="400" value="200">
+        
+        <label for="videoSpeed">Video Speed: </label>
+        <input type="range" id="videoSpeed" min="0.5" max="2" step="0.1" value="1">
+        
+        <label for="numVideos">Number of Videos: </label>
+        <input type="number" id="numVideos" min="1" max="10" value="3">
+        
+        <button id="randomizeButton">Randomize Shapes</button>
+        <button id="toggleDarkMode">Toggle Dark Mode</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
